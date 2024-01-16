@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "files.exclude": {
+        "**/build": true,
+        "**/bin": true
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

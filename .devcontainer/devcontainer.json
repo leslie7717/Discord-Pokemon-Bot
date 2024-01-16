@@ -1,0 +1,23 @@
+{
+    "name": "Java",
+    "image": "mcr.microsoft.com/devcontainers/java:0-17",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "17",
+            "installMaven": "false",
+            "installGradle": "true"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-gradle"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8080
+    ]
+}

@@ -1,0 +1,51 @@
+# fly.toml app configuration file generated for cs5500-f23-kangaroo on 2023-10-17T18:58:36Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "cs5500-f23-kangaroo"
+primary_region = "sea"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
+
+[build]
+  builder = "paketobuildpacks/builder-jammy-full"
+  [build.args]
+    BPE_JAVA_TOOL_OPTIONS = "-Xss256K -XX:ReservedCodeCacheSize=64M -XX:MaxMetaspaceSize=64M -javaagent:zagent/honey-javaagent.jar"
+    BP_INCLUDE_FILES = "zagent/honey-javaagent.jar"
+    BP_JVM_VERSION = "17"
+    BP_OPENTELEMETRY_ENABLED = "true"
+
+[deploy]
+  strategy = "canary"
+
+[env]
+  BPL_JVM_THREAD_COUNT = "50"
+  HONEYCOMB_METRICS_DATASET = "production"
+  JAVA_TOOL_OPTIONS = "-Xss256K -XX:ReservedCodeCacheSize=64M -XX:MaxMetaspaceSize=64M -javaagent:zagent/honey-javaagent.jar"
+  OTEL_EXPOTER_OTLP_ENDPOINT = "api.honeycomb.io:443"
+  OTEL_JAVAAGENT_ENABLED = "true"
+  OTEL_METRICS_EXPORTER = "otlp"
+  OTEL_SERVICE_NAME = "cs5500-s23-starterbot"
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 8080
+  processes = ["app"]
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20
+
+  [[services.tcp_checks]]
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "1s"

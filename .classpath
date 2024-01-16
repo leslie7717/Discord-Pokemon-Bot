@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build/resources/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/main" path="src/main/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="build/generated/sources/annotationProcessor/java/test">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="build/generated/sources/annotationProcessor/java/main">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.48.v20220622/2c8b7ad6b64437a693cd30666f3def666aac8207/jetty-xml-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.48.v20220622/e9df6b710d051df46535349d88d96ce3546e797b/jetty-xml-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api-logs/1.22.0-alpha/b6f33ad9a925314f9fbe6bb6451fe3b7d75976b/opentelemetry-api-logs-1.22.0-alpha.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api-logs/1.22.0-alpha/2a59f9bcdb5554214b1f63008e9208eb00fc0696/opentelemetry-api-logs-1.22.0-alpha-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.1/7a07bc535ccf0b7f6929c4d0f2ab9b294ef7c4a3/jackson-core-2.14.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.1/118cdd7be74189927a927174f457e3d134685918/jackson-core-2.14.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/a2926c057ca3b662b9db194c869bdbe7d3bb8aef/jsr305-3.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.48.v20220622/76523923d4a5efabe05c2a7aa120282ac1db8c79/websocket-api-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.48.v20220622/ae9a169ddd246b87c7e0daba109b164735df6d47/websocket-api-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.53.0/e302201caf3289e8a030b111d90fed64108b5957/grpc-netty-shaded-1.53.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.53.0/f12ed31f61580113f481d38e535e2a0e0a241f45/grpc-netty-shaded-1.53.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/95479b7d72e2ab9a0d7a17848a6498d4c4689d00/opentelemetry-sdk-logs-1.22.0-alpha.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/6a50ef73720403da80db5d9f351dc9eb53ad3a22/opentelemetry-sdk-logs-1.22.0-alpha-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/5.0.0-beta.3/272c2b099465e472c48b41bb8c752cf75396f896/JDA-5.0.0-beta.3.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/5.0.0-beta.3/6674738e6bd546e46b0e6a6230fa77fd4d8794f/JDA-5.0.0-beta.3-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.neovisionaries/nv-websocket-client/2.14/1b66d37914b232cef45e56ec8c01907620de9e3a/nv-websocket-client-2.14.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.neovisionaries/nv-websocket-client/2.14/fb737eab484fa4627334e64f33fede3301035f85/nv-websocket-client-2.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.21/419a9acd297cb6fe6f91b982d909f2c20e9fa5c0/animal-sniffer-annotations-1.21.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.21/ba959018b7a605adb93f826e92841385343e555c/animal-sniffer-annotations-1.21-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.22.0/1c696ad4acc4898ca2f7901bf47d8665c39774a/opentelemetry-sdk-metrics-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.22.0/b6bf586e878389245a6f65eece75a8477dbf3f67/opentelemetry-sdk-metrics-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.31/77e0f2568912e45d26c31fd417a332458508acdf/kotlin-stdlib-jdk7-1.5.31.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.31/ccdfdab71f0f3ba104191d8f673d0620e7ed2e46/kotlin-stdlib-jdk7-1.5.31-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.22.0/2ec5eab978350c7f282cdafdb746526d7f345b13/opentelemetry-sdk-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.22.0/d7fccc3faee7674c418fe86ec1b0134e6aa652e/opentelemetry-sdk-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953/slf4j-api-2.0.6.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.6/e5127f7758d47c789645d37725ab9262ea38873e/slf4j-api-2.0.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-common/1.22.0/fc3983395953545a1ddd82b2ad349b71ef45423/opentelemetry-exporter-common-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-common/1.22.0/9715848cc7ba4e2c77fc7e2a89b6c1fff03067/opentelemetry-exporter-common-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/ea1b37f38c327596b216542bc636cfdc0b8036fa/log4j-api-2.19.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.19.0/e50c05b05437e7f5fc11609b8366a5e151f74461/log4j-api-2.19.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.48.v20220622/317d5fcb9f4a11265201546a0f55a0c2f4b1dd5c/websocket-server-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.48.v20220622/cb553653fdf80dc1ed7d499a2e4f3d5e3d3f680b/websocket-server-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.honeycomb/honeycomb-opentelemetry-common/1.4.2/292a7f46d79351ac2c6441bb81bfff82965333fc/honeycomb-opentelemetry-common-1.4.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.honeycomb/honeycomb-opentelemetry-common/1.4.2/32602c940c55d13d01670bdc23f69a1fad7dbfbe/honeycomb-opentelemetry-common-1.4.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.19.0/3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb/log4j-core-2.19.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.19.0/b01fda4bda99fce653352ebe79897e43dee2e67f/log4j-core-2.19.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-semconv/1.22.0-alpha/52238714055d0bedfd16ceb9562a52e99e431f67/opentelemetry-semconv-1.22.0-alpha.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-semconv/1.22.0-alpha/b09d821a841090dad4367979b16d6a1fa5da5c/opentelemetry-semconv-1.22.0-alpha-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.48.v20220622/8cb235e70bda0c5e97a41e7ee0ea33ee7f5bcc6a/jetty-http-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.48.v20220622/1de62f13303ac045191d9ad1abbb8b83817e68c8/jetty-http-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-resources/1.22.1-alpha/48ee95a88c2401ee0c98d9186bccca50c2955170/opentelemetry-resources-1.22.1-alpha.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-resources/1.22.1-alpha/b94ead37ae8f5bb0ecc7a0def23ed9d2c0ae531d/opentelemetry-resources-1.22.1-alpha-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.14.0/9f01b3654d3c536859705f09f8d267ee977b4004/error_prone_annotations-2.14.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.14.0/3913e4fd12ff441a3cf5d8db56d5f0ebe736caf7/error_prone_annotations-2.14.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.48.v20220622/6114f92529e9cff489528e6be77b48526a92d577/jetty-security-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.48.v20220622/180f6a2febc5d34139c079bc8ca4ab17a61c9261/jetty-security-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.9.4/98117708e6ac42f2be3d2948b2193be6b0258c62/spark-core-2.9.4.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.9.4/58e0644d18adf5a4953f5ae6abab23687bb75c9f/spark-core-2.9.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.44.2/5c4265ab0e8e6beca4391afd9cf7c432df6d5243/dagger-2.44.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.44.2/ba565472b6fc61904126cbaaeb7e443dab86be72/dagger-2.44.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.53.0/968fdbb4369cbf03302b1137e52e97c4d49bd548/grpc-api-1.53.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.53.0/3649e9a60cb6a7b2e7f634586104286cdeead0a0/grpc-api-1.53.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/47032dcf2f69880f07dab3dc60b4b0ad97318308/json-20211205.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/da7389375f5fe45eda82bc552e77513057811748/json-20211205-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/2.0.6/78c57967fe87a823697fe6cf0f5b394b0aa18337/slf4j-simple-2.0.6.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/2.0.6/a5ce031305fa96f4fefbab96321dca939b4e04ed/slf4j-simple-2.0.6-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.48.v20220622/9317a8518674c54b5ed9ec5ece8fcad92af91802/jetty-webapp-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.48.v20220622/b844e3fdd407ef60b5a96b79cbfad414c303f67a/jetty-webapp-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-annotations/1.22.1/9b6906f47ed9a799a21ecbc6b2d0d1ae9c5f8fd7/opentelemetry-instrumentation-annotations-1.22.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-annotations/1.22.1/da9d8f01a910ce14c2520b90e6bc0098140d665e/opentelemetry-instrumentation-annotations-1.22.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.48.v20220622/b09b55209d0a304e542f779750a01f6914dc55e7/jetty-io-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.48.v20220622/6a870b7a0fee95293c337d0b5873257cc97b1321/jetty-io-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/889672a1721d6d85b2834fcd29d3fda92c8c8891/jackson-databind-2.13.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.13.0/531874ca0491bcdee13bc6a4f0fa201d8067366c/jackson-databind-2.13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/109c5be93362e6e651e417c51d1863477a22969c/trove4j-3.0.3-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/deb22daeb37bdcbc14230aeaeddce38320d6d0f9/annotations-4.1.1.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.1/268524b9056cae1211b9f1f52560ef19347f4d17/jackson-databind-2.14.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.1/9fda9f7d45ce1e79b678793433f697b6a9c66ff9/jackson-databind-2.14.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.48.v20220622/e5536fc714ab049505f99ad799a831f7be36bbf0/websocket-client-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.48.v20220622/8b4f8b01cd3d33d1296b970d14ac007c66977f27/websocket-client-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/a95c9f4bc8e3000f7b7adfdf5732b13cca5451e/lombok-1.18.24-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.48.v20220622/7efc06f7ec0ff33d8c219bcc8c7415280c103669/jetty-util-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.48.v20220622/8735704c5946a65ed5f6ce11a8fca9cc56de49af/jetty-util-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.48.v20220622/6216200152965667066df70b65698e3a063e383d/websocket-servlet-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.48.v20220622/e39518deb7c9899093ac21f9001ff578399ec5a4/websocket-servlet-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util-ajax/9.4.48.v20220622/def39454993d094df10b1689592d235e636d7dde/jetty-util-ajax-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util-ajax/9.4.48.v20220622/a65e73418c1ff2e38ba674f6b141d1cef56639b3/jetty-util-ajax-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.22.0/3ced22e68865d2e18dec94432648aea4285794de/opentelemetry-sdk-trace-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.22.0/50d1f6fd9397d05860e512758e767a8561d99cda/opentelemetry-sdk-trace-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/e957ec5442966e69cef543927bdc80e5426968bb/jackson-core-2.13.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.13.0/26783a31fe3e4b63f2799dda9266747d0621ffc6/jackson-core-2.13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-otlp-common/1.22.0/6155d0f42437e15948214f180330e1cae61d2098/opentelemetry-exporter-otlp-common-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-otlp-common/1.22.0/eb96c8dbfb0d8561add583e47e7373feeff3068d/opentelemetry-exporter-otlp-common-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.48.v20220622/8a9a53e0aad3f194a4cc9940f7e9d5619254bf62/jetty-servlet-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.48.v20220622/cce01febd6000b909cfd192011283629ba773936/jetty-servlet-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.48.v20220622/3953122cd495f64ff72831e889a5a661631f580/websocket-common-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.48.v20220622/dd06db21eea93ead4dbc738723c4cf4cb7689437/websocket-common-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/8a1167e089096758b49f9b34066ef98b2f4b37aa/gson-2.9.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/83f964c0d36cda6b05269fdd43abd0f553a17c84/gson-2.9.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.20/27b4562b6713d70f458c6d7ea39aadacb8e6a92b/kotlin-stdlib-common-1.6.20.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.20/e81e108a2817747538df29b32a151db38e5da5a2/kotlin-stdlib-common-1.6.20-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.53.0/be781334b80a78f11044813fba123826d2df4b6b/grpc-core-1.53.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.53.0/7b596d6cb1045239f44e9e1ec34012476c2174a2/grpc-core-1.53.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.48.v20220622/fc2e953a7030045e1ca467d57e200856a170848e/jetty-client-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.48.v20220622/c1eb8ff42d9eb964ec488739a598ab4e31e48589/jetty-client-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api-semconv/1.22.1-alpha/9fda4a4c1c930b26520a05933b97d00d207c2751/opentelemetry-instrumentation-api-semconv-1.22.1-alpha.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api-semconv/1.22.1-alpha/dbf08c3da5c08f6ef8f1798eaee64af8dcc5aac3/opentelemetry-instrumentation-api-semconv-1.22.1-alpha-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.12.11/b7f1072d9b1d81148b80226db28ffff8cbb54c20/mongo-java-driver-3.12.11.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.12.11/110b31272835c8a64957355c92ee9e0aefb5b050/mongo-java-driver-3.12.11-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/15be89db6609bd6fda3dc309bacf0318a312c03f/jackson-annotations-2.13.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.0/1c78424885821d9d76dea840373e4c6ec3194bfb/jackson-annotations-2.13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.48.v20220622/b91a0641cda31c93962503b88f783602d2bd8093/jetty-server-9.4.48.v20220622.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.48.v20220622/486907a29bcc49daaa40ce988eb7fb24bc4ca9b8/jetty-server-9.4.48.v20220622-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.22.0/a608c85a1430449ef190abb8d726ae3236ab137e/opentelemetry-context-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.22.0/5339248178bfe42aad11393f25d7ae60714a5371/opentelemetry-context-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/c487ad3f8c77c17ae8f159a7752c9087b409b411/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/55606fccfb4bff8f3591fc71cce990bb59448b06/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/3.0.1/fc019a2216218990d64dfe756e7aa20f0069dea2/annotations-3.0.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/3.0.1/e6a834472bdb9f5c9b8ec64d05c3ae2cb6a03cec/annotations-3.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.22.0/eec33919a91787ae15fbd4373896e50af3b464ae/opentelemetry-sdk-common-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.22.0/804bcb84f9688ffef3eae79bddf5490cc5e38186/opentelemetry-sdk-common-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.22.0/ee1f51f1f3b5565b8b89a8a43e071f6b9517679c/opentelemetry-api-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.22.0/de47ddb28e70dc23245990394f48715d4462b8c3/opentelemetry-api-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.22.0/d252f98983d2ad333f8f45bab5976eb13d257448/opentelemetry-exporter-logging-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.22.0/b698c74bfe8b3836c6016ebf978df9a28656073d/opentelemetry-exporter-logging-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-otlp/1.22.0/d05b784b4829ace215b6c86a73d4991c1feb4706/opentelemetry-exporter-otlp-1.22.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-otlp/1.22.0/2ecd4733471782f7537a048c6c4fdbb3cef10b2d/opentelemetry-exporter-otlp-1.22.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.10.0/cd63657ac15770ed1420647154c9f44645533bef/okhttp-4.10.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.10.0/4afcb4a940f3411594ba7dc899086a882293f22a/okhttp-4.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/10dacb8b36398debceca36cd0db5f3316967f80e/checker-qual-3.12.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.22.1/d1cc73de9419ef7ef44164edb05be91aa2fcb8f4/opentelemetry-instrumentation-api-1.22.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.22.1/55d63a77e3fd0bc22f1402504fbeff778b6170c4/opentelemetry-instrumentation-api-1.22.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.25.0/340a0c3d81cdcd9ecd7dc2ae00fb2633b469b157/perfmark-api-0.25.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.25.0/a7a132c7c443597ded09233a8421bbc2486e4c8a/perfmark-api-0.25.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.0.0/ab5a73fa2ccb4a36b0b5c69fe10b16d0255bcf8/okio-jvm-3.0.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.0.0/73e518d3b5760645d525c24934e4efc01149060a/okio-jvm-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.31/ff5d99aecd328872494e8921b72bf6e3af97af3e/kotlin-stdlib-jdk8-1.5.31.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.31/171265ccd1f7a4307c3cb8eedd9115e662013190/kotlin-stdlib-jdk8-1.5.31-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.53.0/70aa77c3e715b6f22a42c466eb2f48031bc468fb/grpc-context-1.53.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.53.0/6e0f46abc9641f1d4878b3be6d36091d84dea251/grpc-context-1.53.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.20/6cedc143badbb4f1c6b7f5a340b04edff1743208/kotlin-stdlib-1.6.20.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.20/bc58085192d5abb48080e3670915133715a33ce0/kotlin-stdlib-1.6.20-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.1/2a6ad504d591a7903ffdec76b5b7252819a2d162/jackson-annotations-2.14.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.1/35e08e7d5ac574fce3910e166f7e6c22a8afa98d/jackson-annotations-2.14.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/io.honeycomb/honeycomb-opentelemetry-sdk/1.4.2/cef3252815cd7da5ea8343eed75fb6ea0d7d33be/honeycomb-opentelemetry-sdk-1.4.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/io.honeycomb/honeycomb-opentelemetry-sdk/1.4.2/2c17086f1be9492321a92985deaa367f079dfbfd/honeycomb-opentelemetry-sdk-1.4.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/c388a68bc2b17a314dfa7c769d858ada0fc32dcf/guava-31.1-jre-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.2/572f7a553b53f83ee59cc045ce1c3772864ab76c/junit-jupiter-engine-5.9.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.2/128d5b5b681442f6eeab0c8c17825983cc233d68/junit-jupiter-engine-5.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/d060e42b6aa896a3abe2ec612e1cf8cc307f8a49/error_prone_annotations-2.11.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/40aeef2be7b04f96bb91e8b054affc28b7c7c935/junit-platform-engine-1.9.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/819f0849cf19b1f46718c36a4fc8406c87bced45/junit-platform-engine-1.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/3fb15dd478bf8dcb039aa0d035f9fff9e4229c61/asm-9.1-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/6f9f8621d8230cd38aa42e58ccbc0c00569131ce/junit-platform-commons-1.9.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/44bff8441bcb66b817b5a9d5c1a6717cdf26dbde/junit-platform-commons-1.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/fed843581520eac594bc36bb4b0f55e7b947dda9/junit-jupiter-api-5.9.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/5232572dbe6548235580494edb226fed76109643/junit-jupiter-api-5.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.13.0/e29afc6adb63a39286d38dc0e00d164117c02f0d/checker-qual-3.13.0.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.13.0/33c917199e904fa7fd750a5e5ec93b7abb70f4ef/checker-qual-3.13.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/1.1.3/5e2491cc44dce7380165963a24e91a0af4556a17/truth-1.1.3.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/1.1.3/c13954ac9baa7bd3bc289dbcdb7d0fc719977839/truth-1.1.3-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.8.1/174878f9cc9cbacb8b464d774afb2ccf938f257b/auto-value-annotations-1.8.1.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.8.1/8894b674fc750510b3b290d3aedaa5b2b025a56a/auto-value-annotations-1.8.1-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/vscode/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" sourcepath="/home/vscode/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/test" path=".apt_generated_tests">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

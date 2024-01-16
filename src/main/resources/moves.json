@@ -1,0 +1,422 @@
+{
+    "pound": {
+        "accuracy": 100,
+        "id": 1,
+        "power": 40,
+        "pp": 35,
+        "type": "Normal",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "tackle": {
+        "accuracy": 100,
+        "id": 33,
+        "power": 50,
+        "pp": 35,
+        "type": "Normal",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "scratch": {
+        "accuracy": 100,
+        "id": 10,
+        "power": 40,
+        "pp": 35,
+        "type": "Normal",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "flamethrower": {
+        "accuracy": 100,
+        "id": 53,
+        "power": 90,
+        "pp": 15,
+        "tm": null,
+        "type": "Fire",
+        "max_pp": null,
+        "category": "special"
+    },
+    "ember": {
+        "accuracy": 100,
+        "id": 52,
+        "power": 40,
+        "pp": 25,
+        "type": "Fire",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "fire-punch": {
+        "accuracy": 100,
+        "id": 7,
+        "power": 75,
+        "pp": 15,
+        "type": "Fire",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "surf": {
+        "accuracy": 100,
+        "id": 57,
+        "power": 90,
+        "pp": 15,
+        "type": "Water",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "waterfall": {
+        "accuracy": 100,
+        "id": 127,
+        "power": 80,
+        "pp": 15,
+        "type": "Water",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "clamp": {
+        "accuracy": 85,
+        "id": 128,
+        "power": 35,
+        "pp": 10,
+        "type": "Water",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "thunderbolt": {
+        "accuracy": 100,
+        "id": 85,
+        "power": 90,
+        "pp": 15,
+        "tm": null,
+        "type": "Electric",
+        "max_pp": null,
+        "category": "special"
+    },
+    "thunder": {
+        "accuracy": 70,
+        "id": 87,
+        "power": 110,
+        "pp": 10,
+        "tm": null,
+        "type": "Electric",
+        "max_pp": null,
+        "category": "special"
+    },
+    "thunder-punch": {
+        "accuracy": 100,
+        "id": 9,
+        "power": 75,
+        "pp": 15,
+        "tm": null,
+        "type": "Electric",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "absorb": {
+        "accuracy": 100,
+        "id": 71,
+        "power": 20,
+        "pp": 25,
+        "type": "Grass",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "vine-whip": {
+        "accuracy": 100,
+        "id": 22,
+        "power": 20,
+        "pp": 25,
+        "type": "Grass",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "solar-beam": {
+        "accuracy": 100,
+        "id": 76,
+        "power": 120,
+        "pp": 10,
+        "type": "Grass",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "blizzard": {
+        "accuracy": 70,
+        "id": 59,
+        "power": 110,
+        "pp": 5,
+        "tm": null,
+        "type": "Ice",
+        "max_pp": null,
+        "category": "special"
+    },
+    "ice-punch": {
+        "accuracy": 100,
+        "id": 8,
+        "power": 75,
+        "pp": 15,
+        "tm": null,
+        "type": "Ice",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "aurora-beam": {
+        "accuracy": 100,
+        "id": 62,
+        "power": 65,
+        "pp": 20,
+        "tm": null,
+        "type": "Ice",
+        "max_pp": null,
+        "category": "special"
+    },
+    "karate-chop": {
+        "accuracy": 100,
+        "id": 2,
+        "power": 50,
+        "pp": 25,
+        "type": "Fighting",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "jump-kick": {
+        "accuracy": 95,
+        "id": 26,
+        "power": 100,
+        "pp": 10,
+        "type": "Fighting",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "rolling-kick": {
+        "accuracy": 85,
+        "id": 27,
+        "power": 60,
+        "pp": 15,
+        "type": "Fighting",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "smog": {
+        "accuracy": 70,
+        "id": 123,
+        "power": 30,
+        "pp": 20,
+        "type": "Poison",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "sludge": {
+        "accuracy": 100,
+        "id": 124,
+        "power": 65,
+        "pp": 20,
+        "type": "Poison",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "acid": {
+        "accuracy": 100,
+        "id": 51,
+        "power": 40,
+        "pp": 30,
+        "type": "Poison",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "dig": {
+        "accuracy": 100,
+        "id": 91,
+        "power": 80,
+        "pp": 10,
+        "tm": null,
+        "type": "Ground",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "fissure": {
+        "accuracy": 30,
+        "id": 90,
+        "power": null,
+        "pp": 5,
+        "type": "Ground",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "earthquake": {
+        "accuracy": 100,
+        "id": 89,
+        "power": 100,
+        "pp": 10,
+        "tm": null,
+        "type": "Ground",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "psybeam": {
+        "accuracy": 100,
+        "id": 60,
+        "power": 65,
+        "pp": 20,
+        "type": "Psychic",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "confusion": {
+        "accuracy": 100,
+        "id": 93,
+        "power": 50,
+        "pp": 25,
+        "type": "Psychic",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "psychic": {
+        "accuracy": 100,
+        "id": 94,
+        "power": 90,
+        "pp": 10,
+        "tm": null,
+        "type": "Psychic",
+        "max_pp": null,
+        "category": "special"
+    },
+    "twineedle": {
+        "accuracy": 100,
+        "id": 41,
+        "power": 25,
+        "pp": 20,
+        "type": "Bug",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "pin-missile": {
+        "accuracy": 95,
+        "id": 42,
+        "power": 25,
+        "pp": 20,
+        "type": "Bug",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "leech-life": {
+        "accuracy": 100,
+        "id": 141,
+        "power": 80,
+        "pp": 10,
+        "tm": null,
+        "type": "Bug",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "rock-throw": {
+        "accuracy": 90,
+        "id": 88,
+        "power": 50,
+        "pp": 15,
+        "tm": null,
+        "type": "Rock",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "rock-slide": {
+        "accuracy": 90,
+        "id": 157,
+        "power": 75,
+        "pp": 10,
+        "tm": null,
+        "type": "Rock",
+        "max_pp": null,
+        "category": "physical"
+    },
+    "lick": {
+        "accuracy": 100,
+        "id": 122,
+        "power": 30,
+        "pp": 30,
+        "type": "Ghost",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "night-shade": {
+        "accuracy": 100,
+        "id": 101,
+        "power": null,
+        "pp": 15,
+        "type": "Ghost",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "dragon-rage": {
+        "accuracy": 100,
+        "id": 82,
+        "power": null,
+        "pp": 10,
+        "type": "Dragon",
+        "max_pp": null,
+        "tm": null,
+        "category": "special"
+    },
+    "bite": {
+        "accuracy": 100,
+        "id": 44,
+        "power": 60,
+        "pp": 25,
+        "type": "Dark",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "gust": {
+        "accuracy": 100,
+        "id": 16,
+        "power": 40,
+        "pp": 55,
+        "tm": null,
+        "type": "Flying",
+        "max_pp": null,
+        "category": "special"
+    },
+    "peck": {
+        "accuracy": 100,
+        "id": 64,
+        "power": 35,
+        "pp": 35,
+        "type": "Flying",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    },
+    "fly": {
+        "accuracy": 95,
+        "id": 19,
+        "power": 90,
+        "pp": 15,
+        "type": "Flying",
+        "max_pp": null,
+        "tm": null,
+        "category": "physical"
+    }
+}
